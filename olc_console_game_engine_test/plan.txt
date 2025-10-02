@@ -2,18 +2,14 @@
 
 1. Game Loop
 
-   Initialize screen, paddles, ball.
-   Every frame: process input → update positions → check collisions → render.
-
-    Process Input → Move paddles.
-
-    Move Ball → Update ball position using velocity.
-
-    Check Collisions → Ball ↔ Paddle, Ball ↔ Walls.
-
-    Handle Scoring → Detect if a player scored, reset ball if needed.
-
-    Optional Gameplay Logic → Win condition, speed adjustments, etc.
+   Initialize screen, paddles, ball
+   Every frame: process input → update positions → check collisions → render
+    
+    Process Input → Move paddles
+    Move Ball → Update ball position using velocity
+    Check Collisions → Ball ↔ Paddle, Ball ↔ Walls
+    Handle Scoring → Detect if a player scored, reset ball if needed
+    Optional Gameplay Logic → Win condition, speed adjustments, etc
 
 2. Entities
 
@@ -25,26 +21,26 @@
    Ball
      Position (x, y)
      Velocity (dx, dy)
-     Collision with paddles and screen borders.
+     Collision with paddles and screen borders
 
 3. Gameplay
 
-    Score for each player (when ball goes past opponent).
-    Restart ball after a point.
-    Win condition (optional: e.g. first to 5 points).
+    Score for player
+    Restart ball after a point
+    Win condition
 
 4. Rendering
 
-    Draw paddles (vertical lines).
-    Draw ball (single char).
-    Draw score at top of screen.
-
-
-Folder / Project Structure
-
-Pong/
- ├─ olcConsoleGameEngine.h
- ├─ main.cpp
- └─ project_info.txt
-
-
+    Draw paddle
+    Draw ball
+    Draw score at top of screen
+ 
+ Define structs for Paddle and Ball and Game
+ Create a class that inherits from olcConsoleGameEngine
+ Create main demo object and start the game engine
+ Draw static elements (paddles, ball, score)
+ Handle input for paddle movement
+ Handle ball movement
+ Handle collisions (ball with paddles and walls)
+ Display score
+ Add custom corner collision for paddles
