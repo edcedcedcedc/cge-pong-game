@@ -16,3 +16,5 @@ A simple console-based game that I am writing in C++ using [olcConsoleGameEngine
 
 
 
+[demo](demo.gif)
+
