@@ -15,6 +15,6 @@ A simple console-based game that I am writing in C++ using [olcConsoleGameEngine
 * Game over when the ball passes the bottom of the screen.
 
 
+![](./demo.gif)
 
-[demo](demo.gif)
 
