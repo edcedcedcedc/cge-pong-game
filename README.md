@@ -1,7 +1,7 @@
 # PongGame
 
-A simple console-based game that I am writing in C++ using [olcConsoleGameEngine](https://github.com/OneLoneCoder/Javidx9/blob/master/ConsoleGameEngine/olcConsoleGameEngine.h) by Javidx9, which provides easy 2D console graphics.
-
+A simple console-based game in C++ using [olcConsoleGameEngine](https://github.com/OneLoneCoder/Javidx9/blob/master/ConsoleGameEngine/olcConsoleGameEngine.h) by Javidx9, which provides easy 2D console graphics.
+![](./demo.gif)
 ## Overview
 * A single player-controlled paddle.
 * A bouncing ball with simple collision detection.
@@ -15,6 +15,7 @@ A simple console-based game that I am writing in C++ using [olcConsoleGameEngine
 * Game over when the ball passes the bottom of the screen.
 
 
-![](./demo.gif)
+
+
 
 
